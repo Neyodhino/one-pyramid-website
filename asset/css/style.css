@@ -1038,16 +1038,6 @@ section.page-header-section {
     position: relative;
 }
 
-section.technology-page-header-section {
-    height: 280px;
-    background-image: url(../img/tech-slide.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-
 .breadcrumb-section {
     background: #fff;
     position: relative;
@@ -1128,151 +1118,42 @@ ol.breadcrumb li {
 }
 
 
-/*start quote area*/
-
-.quote-area {
-    background-image: url(../img/yellow-rake.png);
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-
-.quote-text h4 {
-    margin-bottom: 0;
-    color: #000531;
-    line-height: 50px;
-    font-weight: 300;
-    font-size: 24px;
-}
-
-
-/*end of quote area*/
-
-
-/*start team section css*/
-
-.team-picture {
+section.technology-page-header-section {
+    height: 280px;
+    background-image: url(../img/tech-slide.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 
-.team-social-icon {
-    left: 0;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-    margin-top: -25px
-}
-
-.team-social-icon a {
-    background: #ffffff none repeat scroll 0 0;
-    border-radius: 50%;
-    color: #000531;
-    display: inline-block;
-    font-size: 18px;
-    height: 50px;
-    line-height: 50px;
-    margin-right: 8px;
-    text-align: center;
-    width: 50px;
-    transition: .4s;
-    font-weight: 700
-}
-
-.team-social-icon a:hover {
-    background: #ffb400;
-    color: #000531
-}
-
-.team-social-icon a:last-child {
-    margin-right: 0;
-}
-
-.team-picture::before {
-    background-color: rgba(0, 5, 49, .5);
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    opacity: 0;
-    transition: .4s;
-}
-
-.single-team:hover .team-picture:before {
-    opacity: 1;
-}
-
-.single-team:hover .team-social-icon>a:nth-child(1) {
-    top: 0;
-    opacity: 1;
-    visibility: visible
-}
-
-.single-team:hover .team-social-icon>a:nth-child(2) {
-    top: 0;
-    opacity: 1;
-    visibility: visible
-}
-
-.single-team:hover .team-social-icon>a:nth-child(3) {
-    top: 0;
-    opacity: 1;
-    visibility: visible
-}
-
-.team-social-icon a:nth-child(1) {
-    transition: .4s;
+section.training-page-header-section {
+    height: 280px;
+    background-image: url(../img/training-slider.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    top: 50px;
-    opacity: 0;
-    visibility: hidden
 }
 
-.team-social-icon a:nth-child(2) {
-    transition: .4s;
+section.insights-page-header-section {
+    height: 280px;
+    background-image: url(../img/Insight-bac.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    top: 50px;
-    transition-delay: .1s;
-    opacity: 0;
-    visibility: hidden
-}
-
-.team-social-icon a:nth-child(3) {
-    transition: .4s;
-    position: relative;
-    top: 50px;
-    transition-delay: .2s;
-    opacity: 0;
-    visibility: hidden
-}
-
-.team-title {
-    margin-top: 25px;
-}
-
-.team-title h3 {
-    font-weight: 700;
-    text-transform: capitalize;
-    margin-bottom: 10px;
-    color: #000531;
-}
-
-.team-title p {
-    font-weight: 500;
 }
 
 
-/*end of team section css*/
+section.stand-out-section {
+    background-image: url('../img/training-back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
 
 
-/*end of about page css*/
-
-
-/*start project page */
-
-
-/*project nav*/
 
 .project-nav ul li {
     display: inline-block;
@@ -1295,14 +1176,9 @@ ol.breadcrumb li {
 
 .project-nav ul li.active,
 .project-nav ul li:hover {
-    color: #ffb400;
+    color: red;
 }
 
-
-/*end of project page*/
-
-
-/*start team page*/
 
 section.services-area.services-page.section-padding {
     padding-bottom: 30px;
@@ -1316,17 +1192,6 @@ section.services-area.services-page.section-padding {
     margin-bottom: 50px;
 }
 
-
-/*start second brand section*/
-
-
-/*end of team page*/
-
-
-/*start testimonial page*/
-
-
-/*start client section*/
 
 .client-feedback-area.section-padding {
     padding-bottom: 50px;
@@ -1399,15 +1264,6 @@ section.services-area.services-page.section-padding {
     color: #ce1b28;
     font-size: 10px;
 }
-
-
-/*end of client section*/
-
-
-/*end of testimonial section*/
-
-
-/*start list blog area*/
 
 .single-blog a h2 {
     font-size: 30px;
@@ -1483,17 +1339,6 @@ ul.pagination li {
     padding-right: 20px;
     color: #000531;
 }
-
-.single-blog.list-blog-item .news-meta a span {
-    margin-right: 10px;
-    color: #ffa100;
-}
-
-
-/*end of blog area*/
-
-
-/*start sidebar area*/
 
 .widget-area .widget form input {
     width: 100%;
@@ -1576,19 +1421,11 @@ ul.pagination li {
 }
 
 
-/*section.blog-area.blog-grid-page.section-padding{
-    padding-bottom: 50px;
-}*/
 
 section.blog-area.blog-grid-page.section-padding .single-blog {
     margin-bottom: 50px;
 }
 
-
-/*end of sidebar area*/
-
-
-/*start single blog css*/
 
 .blog-content blockquote {
     padding-left: 20px;
@@ -1947,19 +1784,11 @@ section.services-image-page.section-padding {
     border-bottom: 0;
 }
 
-.services-details-page {
-    margin-bottom: 0 !important
+.experience-content p {
+    font-size: 18px;
+    letter-spacing: 1px;
 }
-
-.services-widget-category ul li a:hover {
-    background: #ffa100;
-    color: #fff
+.learning-method {
+    margin-top: 50px;
+    width: 80%;
 }
-
-.services-widget-category ul li:last-child a {
-    border-bottom: 1px solid #eee;
-}
-
-
-/*end of services details page*/
-
