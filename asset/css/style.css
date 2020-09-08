@@ -2,8 +2,6 @@
 @import url(animate.css);
 @import url(slider.css);
 @import url(owl.carousel.min.css);
-@import url(magnific-popup.css);
-@import url(slick.css);
 @import url(home-two.css);
 
 /*start topbar section*/
@@ -11,50 +9,23 @@
 .topbar-area {
     background: #f2f2f2;
     color: #000000;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 15px 0;
     font-weight: 600;
     font-size: 15px;
 }
 
-select.language {
-    background-color: transparent;
-    border: 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 100%;
-    font-weight: 600
-}
-
 .single-topbar p span {
     margin-right: 10px;
-    color: red
+    color: rgb(232, 49, 62)
 }
 
 .single-topbar p {
     margin-bottom: 0;
 }
-
-.selecticon {
-    position: relative;
-    width: 70px;
-    z-index: 1
-}
-
-.selecticon:before {
-    position: absolute;
-    content: "\f0d7";
-    right: 0;
-    font-family: fontawesome;
-    z-index: -1
-}
-
-
 /*end of topbar section*/
 
-
 /*start menu section*/
-
 .menu-area.sticky-menu {
     position: fixed;
     z-index: 5;
@@ -98,16 +69,11 @@ select.language {
 .menu li {
     position: relative;
 }
-
-
-
-
 /*end of menu section*/
 
 
-/*start bran slider section*/
-
-.single-brand img {
+/*start partner slider section*/
+/* .single-brand img {
     display: inline-block;
 }
 
@@ -137,107 +103,9 @@ select.language {
 .brand-slider {
     padding-top: 50px;
     padding-bottom: 50px;
-}
+} */
+/*end of partner slider section*/
 
-
-/*end of brand slider section*/
-
-
-/*start our mission section*/
-
-section.experience-section {
-    position: relative;
-}
-
-section.experience-section.section-padding {
-    padding-bottom: 80px;
-}
-
-
-
-.experience-content h1 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #000000;
-    margin-bottom: 30px;
-}
-
-.experience-content h1 span {
-    color: #ffa100;
-}
-
-.our-mission-list {
-    padding-top: 20px;
-    letter-spacing: .6px
-}
-
-.our-mission-list h4 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #000;
-    position: relative;
-    margin-bottom: 20px;
-    display: inline-block;
-    padding-right: 80px
-}
-
-.our-mission-list h4:before {
-    position: absolute;
-    right: 0;
-    height: 10px;
-    width: 50px;
-    background: #ffa100;
-    content: "";
-    top: 10px;
-}
-
-.experience-content p {
-    font-size: 15px;
-    line-height: 26px;
-    color: #404040;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.our-mission-list ul {
-    margin-top: 20px;
-}
-
-.our-mission-list ul li {
-    position: relative;
-    padding-left: 30px;
-    margin-bottom: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-}
-
-.our-mission-list ul li:before {
-    content: "";
-    font-family: fontawesome;
-    left: 0;
-    position: absolute;
-    color: #ffa100;
-}
-
-.our-mission-list li:last-child {
-    margin-bottom: 0
-}
-
-
-/*end of our mission section*/
-
-
-/*start counter section*/
-
-section.counter-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #f5f5f5;
-}
-
-.single-counter:hover .icon {
-    background: #000531;
-    color: #ffa100;
-}
 
 .icon {
     background-color: #fff;
@@ -272,16 +140,6 @@ section.counter-section {
     margin-bottom: 0
 }
 
-
-/*end of counter section*/
-
-
-/*start services section*/
-
-section.services-section.section-padding {
-    padding-bottom: 50px;
-}
-
 .section-title h2 {
     font-size: 38px;
     font-weight: 700;
@@ -297,6 +155,10 @@ section.services-section.section-padding {
     margin-bottom: 60px;
 }
 
+/* section.services-section.section-padding {
+    padding-bottom: 50px;
+}
+
 .single-services .content p {
     color: #404040;
     font-size: 14px;
@@ -309,10 +171,6 @@ section.services-section.section-padding {
     transition: .6s
 }
 
-.single-services:hover .icon {
-    background-color: #000531;
-    color: #ffa100;
-}
 
 .single-services {
     margin-bottom: 50px;
@@ -320,47 +178,43 @@ section.services-section.section-padding {
 
 .single-man-img {
     margin-bottom: 50px;
+} */
+
+
+/*start of why choose us section*/
+section.work-with-section {
+    background-color: rgb(232, 49, 62);
 }
 
-
-/*end of services section*/
-
-
-/*start why choose section*/
-
-section.why-choose-section {
-    background-color: red;
-}
-
-section.why-choose-section.section-padding {
+section.work-with-section.section-padding {
     padding-bottom: 50px;
 }
 
-section.why-choose-section .section-title {
+section.work-with-section .section-title {
     color: #fff;
 }
 
-section.why-choose-section .single-why-choose .content h4 {
+section.work-with-section .single-work-with .content h4 {
     margin-top: 25px;
-    color: red;
+    color: rgb(232, 49, 62);
 }
 
-section.why-choose-section .single-why-choose:hover .icon {
-    background: red;
+section.work-with-section .single-work-with:hover .icon {
+    background: rgb(232, 49, 62);
     color: #000531;
 }
 
-section.why-choose-section .single-why-choose .icon {
+section.work-with-section .single-work-with .icon {
     background: transparent;
-    color: red;
-    border-color: red;
+    color: rgb(232, 49, 62);
+    border-color: rgb(232, 49, 62);
     font-size: 24px;
     text-align: center;
     margin: 0 auto;
     float: none;
 }
 
-section.why-choose-section .single-why-choose .content{
+section.work-with-section .single-work-with .content{
     font-size: 15px;
     line-height: 30px;
     letter-spacing: .5px;
@@ -368,15 +222,14 @@ section.why-choose-section .single-why-choose .content{
     padding-left: 0;
 }
 
-section.why-choose-section .single-why-choose {
+section.work-with-section .single-work-with {
     padding: 25px;
     height: 400px;
     margin-bottom: 50px;
     background-color: white;
     text-align: center;
 }
-/*end of why choose us section*/
-
+/*end of work with us section*/
 
 /*start of our approach section*/
 section.our-approach-section {
@@ -394,14 +247,14 @@ section.our-approach-section .single-why-choose .content h4 {
 }
 
 section.our-approach-section .single-why-choose:hover .icon {
-    background: red;
+    background: rgb(232, 49, 62);
     color: #000531;
 }
 
 section.our-approach-section .single-why-choose .icon {
     background: transparent;
-    color: red;
-    border-color: red;
+    color: rgb(232, 49, 62);
+    border-color: rgb(232, 49, 62);
     font-size: 24px;
     text-align: center;
 }
@@ -418,7 +271,7 @@ section.our-approach-section .single-why-choose .content p {
 
 /*start core values section*/
 section.core-values-section {
-    background-color: red;
+    background-color: rgb(232, 49, 62);
 }
 
 section.core-values-section.section-padding {
@@ -434,13 +287,13 @@ section.core-values-section .single-why-choose .content h4 {
 }
 
 section.core-values-section .single-why-choose:hover .icon {
-    background: red;
+    background: rgb(232, 49, 62);
     color: #000531;
 }
 
 section.core-values-section .single-why-choose .icon {
     background-color: white;
-    color: red;
+    color: rgb(232, 49, 62);
     font-size: 35px
 }
 
@@ -456,12 +309,11 @@ section.core-values-section .single-why-choose {
 /*end of core values section*/
 
 
-/*start recent project section*/
-
-section.experience-section.section-padding {
+/* section.experience-section.section-padding {
     padding-bottom: 80px;
-}
+} */
 
+/*start article section*/
 section.article {
     background-image: url(../img/article-back.png);
     background-size: cover;
@@ -478,288 +330,9 @@ section.article::before {
     content: "";
     background-color: rgba(0, 4, 35, .2);
 }
-
-.single-project {
-    text-align: center;
-    margin-bottom: 40px;
-    cursor: pointer;
-}
-
-.single-project h4 {
-    margin-bottom: 10px;
-    color: #000531;
-    font-size: 20px;
-    font-weight: 700;
-    transition: .6s
-}
-
-.single-project:hover a h4 {
-    color: #ffa100;
-}
-
-.single-project:hover img {
-    transform: scale(1.1);
-}
-
-.single-project .project-thumb img {
-    transition: 1s;
-}
-
-.single-project .project-thumb {
-    margin-bottom: 20px;
-    overflow: hidden;
-    position: relative;
-}
-
-.single-project p {
-    line-height: 26px;
-    font-size: 14px;
-}
-
-.load-more-button a.btn.btn-default.button-primary {
-    line-height: normal;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 30px;
-    padding-left: 30px;
-    border-radius: 50px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #fff;
-    font-size: 16px;
-    line-height: 18px;
-}
-
-.load-more-button {
-    margin-top: 20px
-}
-
-
-/*end of recent project section*/
-
-
-/*start testimonial section*/
-
-section.testimonial-section {
-    position: relative;
-    height: 500px;
-}
-
-section.testimonial-section:before {
-    position: absolute;
-    content: "";
-    width: 40%;
-    left: 0;
-    height: 100%;
-    background-image: url(../img/testimonial-left.jpg);
-    background-size: cover;
-    background-position: center center;
-    top: 0;
-}
-
-section.testimonial-section:after {
-    width: 60%;
-    right: 0;
-    height: 100%;
-    top: 0;
-    background-image: url(../img/testimonial-right.jpg);
-    content: "";
-    position: absolute;
-    z-index: -1;
-}
-
-.foroverlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.foroverlay:before {
-    position: absolute;
-    width: 40%;
-    left: 0;
-    top: 0px;
-    content: "";
-    background-color: rgba(0, 5, 49, .75);
-    height: 100%;
-}
-
-.foroverlay:after {
-    width: 60%;
-    right: 0;
-    top: 0;
-    content: "";
-    position: absolute;
-    height: 100%;
-    background-color: rgba(0, 5, 49, .5);
-}
-
-.testimonial-title h1 {
-    font-size: 33px;
-    color: #fff;
-    font-weight: 700;
-    margin-bottom: 10px
-}
-
-.testimonial-title h1 span {
-    color: #ffa100;
-}
-
-.testimonial-title {
-    color: #fff;
-    margin-top: 80px;
-}
-
-.testimonial-slider-active {
-    margin-left: 100px;
-    color: #fff;
-}
-
-.testimonial-client-title h4 {
-    margin-bottom: 0;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.testimoial-image {
-    margin-bottom: 20px;
-}
-
-.testimoial-image img {
-    display: inline-block;
-}
-
-.single-testimonial-slider .testimonial-client-title p {
-    margin-bottom: 0
-}
-
-.testimonail-comment {
-    font-size: 15px;
-    font-style: italic;
-    font-weight: 500;
-    color: #fff
-}
-
-.testimonail-comment p {
-    margin-bottom: 0
-}
-
-.testimonail-comment span {
-    display: block;
-    color: #f2f2f2;
-    font-size: 24px
-}
-
-.testimonail-comment span.left-quote {
-    text-align: left;
-}
-
-.testimonail-comment span.right-quote {
-    text-align: right;
-}
-
-ul.slick-dots li {
-    display: inline-block;
-}
-
-ul.slick-dots li button {
-    font-size: 0px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50px;
-    margin: 0 5px;
-    background-color: #fff;
-}
-
-ul.slick-dots li.slick-active button {
-    background-color: #ffa100;
-}
-
-
-/*end of testimonial section*/
-
-
-/*start blog section*/
-
-.blog-title .date {
-    float: left;
-    width: 60px;
-    background: #f2f2f2;
-    text-align: center;
-    margin-right: 20px;
-}
-
-.blog-title .date span {
-    background-color: #ffa100;
-    display: block;
-    color: #fff;
-}
-
-.blog-thumb {
-    margin-bottom: 30px
-}
-
-.blog-title .date h4 {
-    margin-bottom: 0;
-    font-size: 18px;
-    color: #000531;
-    font-weight: 700;
-    line-height: 30px;
-    text-transform: capitalize;
-}
-
-.blog-title h3 {
-    font-size: 20px;
-    font-weight: 700;
-    color: #000;
-    margin-bottom: 10px;
-}
-
-.single-blog p {
-    color: #000531;
-    line-height: 24px;
-    letter-spacing: .5px
-}
-
-a.read-more {
-    padding: 7px 15px;
-    display: inline-block;
-    background: #000531;
-    color: #fff;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    border-radius: 50px;
-    transition: .6s
-}
-
-a.read-more:hover {
-    background-color: #ffa100;
-}
-
-.blog-slider-active ul.slick-dots {
-    text-align: center;
-    margin-bottom: 0;
-    margin-top: 30px;
-}
-
-.blog-slider-active ul.slick-dots li button {
-    border: 1px solid #000531;
-    background: #fff;
-}
-
-.blog-slider-active ul.slick-dots li.slick-active button {
-    background-color: #000531
-}
-
-
-/*end of blog section*/
-
+/*end of article project section*/
 
 /*start contact section*/
-
 .single-contact-address {
     overflow: hidden;
     margin-top: 30px;
@@ -780,7 +353,7 @@ a.read-more:hover {
 }
 
 .single-input label {
-    color: red;
+    color: rgb(232, 49, 62);
     font-size: 14px;
     font-weight: 400;
     font-family: 'Ubuntu', sans-serif;
@@ -819,7 +392,7 @@ a.read-more:hover {
 
 .single-contact-address .icon {
     background: transparent;
-    color: red;
+    color: rgb(232, 49, 62);
     font-size: 22px;
 }
 
@@ -845,7 +418,7 @@ a.read-more:hover {
 .submitbtn button {
     width: 160px;
     height: 40px;
-    background: red;
+    background: rgb(232, 49, 62);
     text-transform: uppercase;
     font-weight: 700;
     cursor: pointer;
@@ -869,25 +442,9 @@ a.read-more:hover {
     font-weight: 700;
     color: #000531
 }
-
-
 /*end of contact section*/
 
-
-/*start google map section*/
-
-#gmap {
-    height: 500px;
-    margin-top: -300px;
-    z-index: -1;
-}
-
-
-/*end of google map section*/
-
-
 /*start footer section*/
-
 section.footer-area.section-padding {
     background: #000531;
     padding-bottom: 60px
@@ -917,7 +474,7 @@ h2.widget-title {
     width: 250px;
     height: 50px;
     padding-left: 10px;
-    border: 1px solid red;
+    border: 1px solid rgb(232, 49, 62);
     background-color: transparent;
     color: #fff;
     float: left;
@@ -936,7 +493,7 @@ h2.widget-title {
 }
 
 .newsletter button {
-    background: red;
+    background: rgb(232, 49, 62);
     width: 50px;
     height: 50px;
     float: left;
@@ -953,7 +510,7 @@ h2.widget-title {
 }
 
 .widget ul li a:hover {
-    color: red;
+    color: rgb(232, 49, 62);
 }
 
 .widget ul li .addres-icon {
@@ -1003,7 +560,7 @@ h2.widget-title {
 .copryright p a {
     margin-bottom: 0;
     font-weight: 700;
-    color: red
+    color: rgb(232, 49, 62);
 }
 
 .footer-social a {
@@ -1014,7 +571,7 @@ h2.widget-title {
 }
 
 .footer-social a:hover {
-    color: red
+    color: rgb(232, 49, 62)
 }
 
 .copyright-section {
@@ -1022,13 +579,10 @@ h2.widget-title {
     background: #000531;
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
-
-
 /*end of footer section*/
 
 
 /*start about page css*/
-
 section.page-header-section {
     height: 280px;
     background-image: url(../img/abt-slide.png);
@@ -1062,8 +616,8 @@ section.page-header-section {
     color: #fff;
     font-size: 16px;
     line-height: 18px;
-    background: red;
-    border-color: red;
+    background: rgb(232, 49, 62);
+    border-color:rgb(232, 49, 62);
     height: 50px;
     width: 200px;
     text-align: center;
@@ -1084,7 +638,7 @@ section.page-header-section {
 }
 
 .paget-title span {
-    color: red;
+    color: rgb(232, 49, 62);
 }
 
 .paget-title h2 {
@@ -1093,7 +647,6 @@ section.page-header-section {
     color: #fff;
 }
 .paget-title h4 {
-    /* font-size: 48px; */
     font-weight: 700;
     color: #fff;
 }
@@ -1176,11 +729,11 @@ section.stand-out-section {
 
 .project-nav ul li.active,
 .project-nav ul li:hover {
-    color: red;
+    color: rgb(232, 49, 62);
 }
 
 
-section.services-area.services-page.section-padding {
+/* section.services-area.services-page.section-padding {
     padding-bottom: 30px;
 }
 
@@ -1190,10 +743,10 @@ section.services-area.services-page.section-padding {
 
 .single-team {
     margin-bottom: 50px;
-}
+} */
 
 
-.client-feedback-area.section-padding {
+/* .client-feedback-area.section-padding {
     padding-bottom: 50px;
 }
 
@@ -1381,7 +934,7 @@ ul.pagination li {
 
 .widget-area .widget ul li a span {
     float: right;
-}
+} */
 
 .single-recent-post .recent-img {
     float: left;
@@ -1399,247 +952,11 @@ ul.pagination li {
     margin-bottom: 20px;
 }
 
-.widget.tag a {
-    color: #fff;
-    display: inline-block;
-    padding: 10px 19px;
-    background: #ffb400;
-    font-weight: 500;
-    font-size: 13px;
-    margin-bottom: 4px;
-    text-transform: uppercase;
-    transition: .6s
-}
-
-.widget.tag a:hover {
-    background-color: #000531;
-    color: #fff
-}
-
-.widget-area .widget.subcribe-widget p {
-    color: #000351;
-}
-
-
-
-section.blog-area.blog-grid-page.section-padding .single-blog {
-    margin-bottom: 50px;
-}
-
-
-.blog-content blockquote {
-    padding-left: 20px;
-    border-left: 5px solid #ffa100;
-    font-style: italic;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #eee;
-    padding-right: 20px;
-}
-
-.blog-details-page:hover img {
-    transform: scale(1) !important;
-}
-
-.figure-caption {
-    font-size: 100%;
-    color: #000531;
-}
-
-.post-share-link {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-top: 1px solid #d9e0e2;
-    margin-top: 50px;
-}
-
-.post-share-link div {
-    display: inline-block;
-}
-
-.tag.posttag a {
-    color: #000531;
-    margin-right: 10px;
-    transition: .4s;
-}
-
-.tag.posttag strong {
-    text-transform: capitalize;
-    margin-right: 10px
-}
-
-.tag.posttag a:hover {
-    color: #ffb400
-}
-
-.share a {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    color: #fff;
-    text-align: center;
-    background: #ffb400;
-    line-height: 40px;
-    border-radius: 6px;
-    transition: .4s;
-}
-
-.share a:hover {
-    color: #fff;
-    background: #000531;
-}
-
-.share {
-    float: right;
-    margin-left: 0;
-    position: relative;
-    top: -10px;
-}
-
-.author-details {
-    padding: 20px;
-    background: #f5f5f5;
-    border-radius: 5px;
-    margin-bottom: 60px
-}
-
-.author-details .about-author h4 {
-    font-size: 18px;
-    font-weight: 700;
-    color: #000531;
-}
-
-.author-details .author-img {
-    float: left;
-    margin-right: 20px;
-}
-
-.author-details .about-author {
-    padding-left: 120px;
-}
-
-.author-details .about-author a {
-    color: #ffb400;
-    margin-right: 15px;
-}
-
-.comment-list ul li .commenter-image {
-    float: left;
-    margin-right: 20px;
-}
-
-.comment-list ul li .commnenter-details {
-    padding-left: 120px;
-}
-
-.comment-list ul li .commnenter-details h4 {
-    font-size: 18px;
-    font-weight: 700;
-    color: #000531;
-    margin-bottom: 5px;
-}
-
-.comment-list ul li .commnenter-details .comment-time p {
-    font-size: 12px;
-    color: #666;
-    margin-bottom: 15px;
-}
-
-.comment-list ul li .commnenter-details .reply a {
-    width: 70px;
-    display: inline-block;
-    background: #000531;
-    text-align: center;
-    line-height: 30px;
-    color: #fff;
-    border-radius: 50px;
-    font-size: 12px;
-}
-
-.comment-list .commnenter-details {
-    margin-bottom: 50px;
-}
-
-.comment-list ul li ul {
-    padding-left: 60px;
-}
-
-
-/*comment for css*/
-
-.single-comment input,
-.single-input textarea {
-    width: 100%;
-}
-
-.single-comment input {
-    width: 100%;
-    height: 50px;
-    padding-left: 20px;
-    border: 1px solid #eee;
-    margin-bottom: 29px;
-    border-radius: 20px;
-}
-.comment-form-area {
-    margin-top: 100px;
-}
-.single-comment textarea {
-    width: 100%;
-    border: 1px solid #eee;
-    padding: 10px;
-    margin-bottom: 30px;
-    border-radius: 20px;
-}
-
-.submit-button button {
-    width: 160px;
-    height: 50px;
-    text-transform: uppercase;
-    background-color: #ffb400;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: .6s
-}
-
-.submit-button button:hover {
-    background-color: #000531;
-    color: #fff;
-}
-
-h2.leave-comment {
-    font-weight: 700;
-    font-size: 24px;
-    color: #000531;
-    margin-bottom: 40px;
-}
-
-.single-blog.blog-details-page.list-blog-item {
-    margin-bottom: 0;
-}
-
-
-/*end of comment css*/
-
-
-/*end of single blog css*/
-
-
-/*start contact page*/
-
 .padding-top {
     padding-top: 100px;
 }
 
-
-/*end of contact page*/
-
-
-/*start project details page*/
-
-.project-gallery-slider ul.slick-dots {
+/* .project-gallery-slider ul.slick-dots {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -1700,13 +1017,10 @@ h4.project-heading:before {
     border-bottom: 1px solid #eee;
     padding-bottom: 20px;
 }
-
-
-/*end of project details page*/
+end of project details page */
 
 
 /*start services image page*/
-
 .services-hover {
     position: absolute;
     bottom: -50px;
@@ -1757,12 +1071,6 @@ section.services-image-page.section-padding {
     padding-bottom: 30px;
 }
 
-
-/*end of services image page*/
-
-
-/*start services details page*/
-
 .single-services-title h2 {
     font-weight: 700;
     color: #000531;
@@ -1791,4 +1099,8 @@ section.services-image-page.section-padding {
 .learning-method {
     margin-top: 50px;
     width: 80%;
+}
+
+.tab-pane {
+    font-size: 18px;
 }

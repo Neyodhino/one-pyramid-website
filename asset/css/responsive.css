@@ -106,6 +106,13 @@
     .paget-title h1 {
         font-size: 40px;
     }
+
+    .util-pills {
+        margin-top: 20px;
+    }
+    .tab-pane {
+        font-size: 15px;
+    }
     
     .site-logo {
         text-align: center;

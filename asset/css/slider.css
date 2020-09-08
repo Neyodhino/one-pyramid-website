@@ -1,5 +1,4 @@
 /*start slider area*/
-
 .main-slider-item {
     position: relative;
     -webkit-background-size: cover;
@@ -138,7 +137,6 @@ a.btn.btn-default.button-primary:hover {
 
 
 /*animate*/
-
 .animated {
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
@@ -177,13 +175,13 @@ a.btn.btn-default.button-primary:hover {
 }
 
 a.btn.btn-default.button-primary {
-    background: red;
-    border: 1px solid red;
+    background: rgb(232, 49, 62);
+    border: 1px solid rgb(232, 49, 62);
     color: white;
 }
 
 a.button-secondary.btn.btn-default {
-    background: red;
-    border: 1px solid red;
+    background: rgb(232, 49, 62);
+    border: 1px solid rgb(232, 49, 62);
     color: #fff;
 }
